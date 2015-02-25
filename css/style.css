@@ -1,0 +1,41 @@
+body {
+  font-family: 'Oxygen', serif;
+}
+
+header {
+  border-bottom: 3px solid gray;
+}
+
+a, 
+a:hover, 
+a:focus {
+  color: gray;
+  text-decoration: none;
+}
+
+
+.margin-vertical {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.wide-spaced-letters {
+  letter-spacing: 5px;
+}
+
+.text-muted {
+	color: gray;
+}
+
+@media only screen and (max-width: 992px) {
+  h1, 
+  h2, 
+  h3, 
+  h4 {
+    text-align: center;
+  }
+  .margin-vertical {
+    margin-bottom: 10px;
+  }
+}
